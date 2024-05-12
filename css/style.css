@@ -335,7 +335,7 @@ footer{
 /* MEDIA QUERIES */
 
 
-@media only screen and (max-width: 900px){
+@media (max-width: 900px){
 
     nav {
         flex-wrap: wrap;
@@ -344,6 +344,7 @@ footer{
     .nav-search{
         order: 7;
         margin: 15px 0 5px;
+        min-width: 300px;
     }
 
     .box-col{
@@ -354,7 +355,7 @@ footer{
 
 
 
-@media only screen and (max-width: 600px){
+@media (max-width: 630px){
 
     .nav-country{
         display: none;
